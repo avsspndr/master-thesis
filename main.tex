@@ -1,0 +1,61 @@
+%!TEX program = lualatex
+\documentclass[a4paper,14pt,openany,oneside]{memoir}
+
+\usepackage{microtype}
+\usepackage[hmargin = 2cm, vmargin = 2cm]{geometry}
+\usepackage{float}
+
+\usepackage[no-math]{fontspec}
+\setmainfont{STIXTwoText}[
+    Path            = ./fonts/STIX2/   ,
+    UprightFont     = *-Regular.otf    ,
+    BoldFont        = *-Bold.otf       ,
+    ItalicFont      = *-Italic.otf     ,
+    BoldItalicFont  = *-BoldItalic.otf
+    ]
+
+\usepackage{unicode-math}
+\setmathfont{STIXTwoMath.otf}[Path = ./fonts/STIX2/]
+
+\setmonofont{FiraCode}[
+    Path        = ./fonts/FiraCode/ ,
+    UprightFont = *-Regular.ttf    ,
+    BoldFont    = *-Bold.ttf     ,
+    ]
+
+\usepackage{indentfirst}
+\usepackage{icomma}
+\usepackage{tocloft}
+\usepackage{enumitem} 
+\makeatletter
+\AddEnumerateCounter{\asbuk}{\russian@alph}{щ}
+\makeatother
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[english,russian]{babel}
+
+% Chapter header format
+\renewcommand{\afterchapternum}{.\;}
+\renewcommand{\chapnamefont}{\centering\bfseries\large\MakeUppercase}
+\renewcommand{\chapnumfont}{\centering\bfseries\large}
+\renewcommand{\chaptitlefont}{\centering\bfseries\large}
+\renewcommand{\printchaptertitle}[1]{\chaptitlefont\MakeUppercase{#1}}
+
+% Section header format
+\setsecnumformat{\csname the#1\endcsname.\;}
+
+% Correct display of the new chapter and section formats with babel
+\addto\captionsrussian{
+    \renewcommand{\secheadstyle}{\centering\bfseries\large}
+    \renewcommand{\subsecheadstyle}{\centering\bfseries\large}
+    \renewcommand{\contentsname}{\bfseries Содержание}
+    }
+    
+\pagestyle{plain}
+\OnehalfSpacing
+
+\begin{document}
+    \input{chapters/chapter-1.tex}
+    \input{chapters/chapter-2.tex}
+\end{document}
