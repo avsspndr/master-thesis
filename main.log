@@ -1,8 +1,8 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.6.10)  7 MAY 2022 12:51
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.5.7)  8 MAY 2022 15:08
  system commands enabled.
  file:line:error style messages enabled.
-**/home/pander/luatex_projects/master_thesis/main
-(/home/pander/luatex_projects/master_thesis/main.tex
+**/home/pander/luatex_projects/master-thesis/main
+(/home/pander/luatex_projects/master-thesis/main.tex
 LaTeX2e <2020-02-02> patch level 2
 Lua module: luaotfload-main 2020-02-02 3.12 luaotfload entry point
 Lua module: luaotfload-init 2020-02-02 3.12 luaotfload submodule / initialization
@@ -774,9 +774,25 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box55
 \enit@count@id=\count329
 \enitdp@description=\count330
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count331
+\calc@Bcount=\count332
+\calc@Adimen=\dimen261
+\calc@Bdimen=\dimen262
+\calc@Askip=\skip256
+\calc@Bskip=\skip257
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count333
+\calc@Cskip=\skip258
+) (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count334
+\g__chemgreek_tmpa_int=\count335
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -787,25 +803,43 @@ Package graphics Info: Driver file: luatex.def on input line 105.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
 File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen261
-\Gin@req@width=\dimen262
+\l__mhchem_ce_distanceFromLastComma_int=\count336
+\__mhchem_arrow_extPgfLength_skip=\skip259
+\mhchem@minispace@tmp=\skip260
+\mhchem@minibackspace@tmp=\skip261
+\mhchem@bondwidth=\skip262
+\mhchem@bondheight=\skip263
+\mhchem@smallbondwidth@tmpA=\skip264
+\mhchem@smallbondwidth@tmpB=\skip265
+\mhchem@smallbondwidth=\skip266
+\mhchem@bondtmp@minussidebearingleft=\skip267
+\mhchem@bondtmp@minussidebearingright=\skip268
+\l__mhchem_option_version_int=\count337
+\mhchem@option@minusmathsidebearingleft=\dimen263
+\mhchem@option@minusmathsidebearingright=\dimen264
+\mhchem@option@minustextsidebearingleft=\dimen265
+\mhchem@option@minustextsidebearingright=\dimen266
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen267
+\Gin@req@width=\dimen268
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count331
+\lst@mode=\count338
 \lst@gtempboxa=\box56
 \lst@token=\toks33
-\lst@length=\count332
-\lst@currlwidth=\dimen263
-\lst@column=\count333
-\lst@pos=\count334
-\lst@lostspace=\dimen264
-\lst@width=\dimen265
-\lst@newlines=\count335
-\lst@lineno=\count336
-\lst@maxwidth=\dimen266
+\lst@length=\count339
+\lst@currlwidth=\dimen269
+\lst@column=\count340
+\lst@pos=\count341
+\lst@lostspace=\dimen270
+\lst@width=\dimen271
+\lst@newlines=\count342
+\lst@lineno=\count343
+\lst@maxwidth=\dimen272
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count337
-\lst@skipnumbers=\count338
+\c@lstnumber=\count344
+\lst@skipnumbers=\count345
 \lst@framebox=\box57
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2019/09/10 1.8c listings configuration
@@ -820,32 +854,36 @@ File: switch.def 2020/02/14 3.40 Babel switching mechanism
 \l@dumylang=\language2
 Package babel Info: Non-standard hyphenation setup on input line 117.
 \l@nohyphenation=\language3
-\l@serbian=\language4
-\l@usenglishmax=\language5
-\l@serbianc=\language6
-\l@bulgarian=\language7
-\l@mongolianlmc=\language8
-\l@churchslavonic=\language9
-\l@ukrainian=\language10
-\l@ukenglish=\language11
+\l@mongolian=\language4
+\l@bulgarian=\language5
+\l@greek=\language6
+\l@ukrainian=\language7
+\l@ibycus=\language8
+\l@serbianc=\language9
+\l@ukenglish=\language10
+\l@ancientgreek=\language11
 \l@russian=\language12
-\l@belarusian=\language13
-\l@mongolian=\language14
+\l@churchslavonic=\language13
+\l@monogreek=\language14
+\l@belarusian=\language15
+\l@serbian=\language16
+\l@usenglishmax=\language17
+\l@mongolianlmc=\language18
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
  (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count339
-\U@D=\dimen267
+\babel@savecnt=\count346
+\U@D=\dimen273
  (/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
 \bbl@attr@locale=\attribute6
 ))
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language11) on input line 105.
+(babel)             (\language10) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language11) on input line 108.
+(babel)             (\language10) on input line 108.
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
 Language: russian 2017/08/12 1.3j Russian support for the Babel system
 Package babel Info: Making " an active character on input line 120.
@@ -853,30 +891,30 @@ Package babel Info: Default for \cyrdash is provided on input line 157.
  (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ru.tex UTF-8 Russian hyphenation patterns (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-ru.tex)))) (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Info: Redefining \microtypecontext on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Info: Redefining \microtypecontext on input line 59.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 58.
+LaTeX Info: Redefining \showhyphens on input line 59.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -920,27 +958,30 @@ Package microtype Info: Loading generic protrusion settings for font family
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/STIXTwoMath.otf(1)/m/n --> TU/STIXTwoText(0)/m/n on input line 58.
+(Font)                  TU/STIXTwoMath.otf(1)/m/n --> TU/STIXTwoText(0)/m/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/STIXTwoText(0)/m/it on input line 58.
+(Font)                  OT1/cmr/m/it --> TU/STIXTwoText(0)/m/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/STIXTwoText(0)/b/n on input line 58.
+(Font)                  OT1/cmr/bx/n --> TU/STIXTwoText(0)/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 58.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 58.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 59.
+
+Package chemgreek Info: Activating mapping `fontspec' on line 59.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count340
-\scratchdimen=\dimen268
+\scratchcounter=\count347
+\scratchdimen=\dimen274
 \scratchbox=\box58
-\nofMPsegments=\count341
-\nofMParguments=\count342
+\nofMPsegments=\count348
+\nofMParguments=\count349
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count343
-\MPscratchDim=\dimen269
-\MPnumerator=\count344
-\makeMPintoPDFobject=\count345
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen275
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
 \everyMPtoPDFconversion=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -970,7 +1011,7 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count346
+\c@lstlisting=\count353
  (./chapters/chapter-1.tex [1
 
 
@@ -979,24 +1020,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `STIXTwoMath.otf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [3
+ [3
 
-] (./main.aux))
+]) [4] (./main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 17562 strings out of 481365
+ 18474 strings out of 481365
  100000,953878 words of node,token memory allocated
- 1203 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 12 attribute, 186 glue_spec, 8 attribute_list, 2 write nodes
-   avail lists: 2:160,3:28,4:21,5:281,6:12,7:2370,8:2,9:86,10:14,11:265
- 34016 multiletter control sequences out of 65536+600000
- 60 fonts using 22426611 bytes
- 50i,11n,109p,1825b,273s stack positions out of 5000i,500n,10000p,200000b,100000s
-<./fonts/STIX2/STIXTwoMath.otf><./fonts/STIX2/STIXTwoText-Regular.otf><./fonts/STIX2/STIXTwoText-Bold.otf>
-Output written on main.pdf (3 pages, 20495 bytes).
+ 1213 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 12 attribute, 188 glue_spec, 8 attribute_list, 2 write nodes
+   avail lists: 2:257,3:42,4:34,5:378,6:12,7:2443,8:24,9:100,10:17,11:381
+ 34895 multiletter control sequences out of 65536+600000
+ 63 fonts using 23497043 bytes
+ 50i,11n,109p,1825b,355s stack positions out of 5000i,500n,10000p,200000b,100000s
+<./fonts/STIX2/STIXTwoText-Italic.otf><./fonts/STIX2/STIXTwoMath.otf><./fonts/STIX2/STIXTwoMath.otf><./fonts/STIX2/STIXTwoText-Regular.otf><./fonts/STIX2/STIXTwoText-Bold.otf>
+Output written on main.pdf (4 pages, 27901 bytes).
 
-PDF statistics: 35 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+PDF statistics: 52 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
