@@ -2,7 +2,7 @@
 \documentclass[a4paper,14pt,openany,oneside]{memoir}
 
 \usepackage{microtype}
-\usepackage[hmargin = 2cm, vmargin = 2cm]{geometry}
+\usepackage[left = 2.5cm, right = 1cm, vmargin = 2cm]{geometry}
 \usepackage{float}
 
 \usepackage[no-math]{fontspec}
@@ -32,6 +32,7 @@
 \makeatother
 \usepackage[version=4]{mhchem}
 \usepackage{amsmath}
+\usepackage{siunitx}
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage[english,russian]{babel}
@@ -42,6 +43,9 @@
 \renewcommand{\chapnumfont}{\centering\bfseries\large}
 \renewcommand{\chaptitlefont}{\centering\bfseries\large}
 \renewcommand{\printchaptertitle}[1]{\chaptitlefont\MakeUppercase{#1}}
+
+% figure numbering format
+%\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
 
 % Section header format
 \setsecnumformat{\csname the#1\endcsname.\;}
@@ -57,6 +61,6 @@
 \OnehalfSpacing
 
 \begin{document}
+    %\input{chapters/introduction.tex}
     \input{chapters/chapter-1.tex}
-    \input{chapters/chapter-2.tex}
 \end{document}
