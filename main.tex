@@ -27,6 +27,8 @@
 \usepackage{icomma}
 \usepackage{tocloft}
 \usepackage{enumitem} 
+\usepackage{hyperref}
+\usepackage{relsize}
 \makeatletter
 \AddEnumerateCounter{\asbuk}{\russian@alph}{щ}
 \makeatother
@@ -54,13 +56,16 @@
 \addto\captionsrussian{
     \renewcommand{\secheadstyle}{\centering\bfseries\large}
     \renewcommand{\subsecheadstyle}{\centering\bfseries\large}
-    \renewcommand{\contentsname}{\bfseries Содержание}
+    \renewcommand{\contentsname}{\bfseries Оглавление}
     }
     
 \pagestyle{plain}
 \OnehalfSpacing
 
 \begin{document}
+    \tableofcontents*
+
     %\input{chapters/introduction.tex}
     \input{chapters/chapter-1.tex}
+    \input{chapters/chapter-2.tex}
 \end{document}
