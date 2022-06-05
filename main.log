@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.5.7)  5 JUN 2022 03:35
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.5.7)  5 JUN 2022 19:04
  system commands enabled.
  file:line:error style messages enabled.
 **/home/pander/luatex_projects/master-thesis/main
@@ -1183,7 +1183,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] [3]
-<figures/hydrstruct.png, id=119, 541.64464pt x 305.81621pt>
+<figures/hydrstruct.png, id=124, 541.64464pt x 305.81621pt>
 File: figures/hydrstruct.png Graphic file (type png)
 <use figures/hydrstruct.png>
 Package luatex.def Info: figures/hydrstruct.png  used on input line 27.
@@ -1194,7 +1194,7 @@ Overfull \hbox (120.59073pt too wide) in paragraph at lines 32--33
  []
 
 [5<./figures/hydrstruct.png>] [6]
-<figures/hydrnucl.png, id=142, 634.62094pt x 398.99063pt>
+<figures/hydrnucl.png, id=147, 634.62094pt x 398.99063pt>
 File: figures/hydrnucl.png Graphic file (type png)
 <use figures/hydrnucl.png>
 Package luatex.def Info: figures/hydrnucl.png  used on input line 63.
@@ -1207,19 +1207,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--64
 ) (./chapters/chapter-2.tex [7<./figures/hydrnucl.png>] [8] [9
 
 ] [10] [11] [12] [13]
-<figures/watermodels.png, id=189, 1927.2pt x 372.39125pt>
+<figures/watermodels.png, id=194, 1927.2pt x 372.39125pt>
 File: figures/watermodels.png Graphic file (type png)
 <use figures/watermodels.png>
 Package luatex.def Info: figures/watermodels.png  used on input line 109.
 (luatex.def)             Requested size: 448.12788pt x 86.59143pt.
  [14]
-<figures/tip4pdiag.png, id=195, 296.68736pt x 216.81pt>
+<figures/tip4pdiag.png, id=200, 296.68736pt x 216.81pt>
 File: figures/tip4pdiag.png Graphic file (type png)
 <use figures/tip4pdiag.png>
 Package luatex.def Info: figures/tip4pdiag.png  used on input line 119.
 (luatex.def)             Requested size: 323.64706pt x 236.53325pt.
  [15<./figures/watermodels.png>]
-<figures/water_mol.png, id=205, 304.13625pt x 231.11343pt>
+<figures/water_mol.png, id=210, 304.13625pt x 231.11343pt>
 File: figures/water_mol.png Graphic file (type png)
 <use figures/water_mol.png>
 Package luatex.def Info: figures/water_mol.png  used on input line 128.
@@ -1242,25 +1242,150 @@ LaTeX Font Info:    Font shape `TU/STIXTwoMath.otf(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/STIXTwoMath.otf(3)/m/n' will be
 (Font)              scaled to size 20.73778pt on input line 137.
  [17]
-<figures/hydrmodel.png, id=225, 365.15369pt x 264.73642pt>
+<figures/hydrmodel.png, id=230, 365.15369pt x 264.73642pt>
 File: figures/hydrmodel.png Graphic file (type png)
 <use figures/hydrmodel.png>
 Package luatex.def Info: figures/hydrmodel.png  used on input line 177.
 (luatex.def)             Requested size: 398.3401pt x 288.81549pt.
  [18<./figures/hydrmodel.png>] [19] [20]
-<figures/bonds.png, id=254, 255.20343pt x 139.27031pt>
+<figures/bonds.png, id=259, 255.20343pt x 139.27031pt>
 File: figures/bonds.png Graphic file (type png)
 <use figures/bonds.png>
 Package luatex.def Info: figures/bonds.png  used on input line 241.
 (luatex.def)             Requested size: 255.2028pt x 139.26996pt.
-<figures/chillplus.png, id=255, 432.86719pt x 160.34906pt>
+<figures/chillplus.png, id=260, 432.86719pt x 160.34906pt>
 File: figures/chillplus.png Graphic file (type png)
 <use figures/chillplus.png>
 Package luatex.def Info: figures/chillplus.png  used on input line 247.
 (luatex.def)             Requested size: 432.86612pt x 160.34866pt.
  [21<./figures/bonds.png>]) (./chapters/chapter-3.tex [22<./figures/chillplus.png>] [23
 
-]) [24]
+]
+<figures/unit1.png, id=288, 770.88pt x 770.88pt>
+File: figures/unit1.png Graphic file (type png)
+<use figures/unit1.png>
+Package luatex.def Info: figures/unit1.png  used on input line 10.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+<figures/unit2.png, id=289, 770.88pt x 770.88pt>
+File: figures/unit2.png Graphic file (type png)
+<use figures/unit2.png>
+Package luatex.def Info: figures/unit2.png  used on input line 11.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+<figures/unit3.png, id=290, 770.88pt x 770.88pt>
+File: figures/unit3.png Graphic file (type png)
+<use figures/unit3.png>
+Package luatex.def Info: figures/unit3.png  used on input line 12.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+<figures/unit1a.png, id=291, 770.88pt x 770.88pt>
+File: figures/unit1a.png Graphic file (type png)
+<use figures/unit1a.png>
+Package luatex.def Info: figures/unit1a.png  used on input line 21.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+<figures/unit2a.png, id=292, 770.88pt x 770.88pt>
+File: figures/unit2a.png Graphic file (type png)
+<use figures/unit2a.png>
+Package luatex.def Info: figures/unit2a.png  used on input line 22.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+<figures/unit3a.png, id=293, 770.88pt x 770.88pt>
+File: figures/unit3a.png Graphic file (type png)
+<use figures/unit3a.png>
+Package luatex.def Info: figures/unit3a.png  used on input line 23.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+<figures/press1.png, id=294, 770.88pt x 770.88pt>
+File: figures/press1.png Graphic file (type png)
+<use figures/press1.png>
+Package luatex.def Info: figures/press1.png  used on input line 34.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+<figures/press2.png, id=295, 770.88pt x 770.88pt>
+File: figures/press2.png Graphic file (type png)
+<use figures/press2.png>
+Package luatex.def Info: figures/press2.png  used on input line 35.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+<figures/press3.png, id=296, 770.88pt x 770.88pt>
+File: figures/press3.png Graphic file (type png)
+<use figures/press3.png>
+Package luatex.def Info: figures/press3.png  used on input line 36.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+ [24<./figures/unit1.png><./figures/unit2.png><./figures/unit3.png><./figures/unit1a.png><./figures/unit2a.png><./figures/unit3a.png>]
+<figures/cool1.png, id=307, 770.88pt x 770.88pt>
+File: figures/cool1.png Graphic file (type png)
+<use figures/cool1.png>
+Package luatex.def Info: figures/cool1.png  used on input line 45.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+<figures/cool2.png, id=308, 770.88pt x 770.88pt>
+File: figures/cool2.png Graphic file (type png)
+<use figures/cool2.png>
+Package luatex.def Info: figures/cool2.png  used on input line 46.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+<figures/cool3.png, id=309, 770.88pt x 770.88pt>
+File: figures/cool3.png Graphic file (type png)
+<use figures/cool3.png>
+Package luatex.def Info: figures/cool3.png  used on input line 47.
+(luatex.def)             Requested size: 161.82353pt x 161.819pt.
+ [25<./figures/press1.png><./figures/press2.png><./figures/press3.png><./figures/cool1.png><./figures/cool2.png><./figures/cool3.png>]
+<figures/nuclei1.png, id=324, 752.8125pt x 752.8125pt>
+File: figures/nuclei1.png Graphic file (type png)
+<use figures/nuclei1.png>
+Package luatex.def Info: figures/nuclei1.png  used on input line 60.
+(luatex.def)             Requested size: 161.82353pt x 161.81706pt.
+<figures/nuclei2.png, id=325, 752.8125pt x 752.8125pt>
+File: figures/nuclei2.png Graphic file (type png)
+<use figures/nuclei2.png>
+Package luatex.def Info: figures/nuclei2.png  used on input line 61.
+(luatex.def)             Requested size: 161.82353pt x 161.81706pt.
+<figures/nuclei3.png, id=326, 752.8125pt x 752.8125pt>
+File: figures/nuclei3.png Graphic file (type png)
+<use figures/nuclei3.png>
+Package luatex.def Info: figures/nuclei3.png  used on input line 62.
+(luatex.def)             Requested size: 161.82353pt x 161.81706pt.
+<figures/nuclei4.png, id=327, 752.8125pt x 752.8125pt>
+File: figures/nuclei4.png Graphic file (type png)
+<use figures/nuclei4.png>
+Package luatex.def Info: figures/nuclei4.png  used on input line 65.
+(luatex.def)             Requested size: 161.82353pt x 161.81706pt.
+<figures/nuclei5.png, id=328, 752.8125pt x 752.8125pt>
+File: figures/nuclei5.png Graphic file (type png)
+<use figures/nuclei5.png>
+Package luatex.def Info: figures/nuclei5.png  used on input line 66.
+(luatex.def)             Requested size: 161.82353pt x 161.81706pt.
+<figures/nuclei6.png, id=329, 752.8125pt x 752.8125pt>
+File: figures/nuclei6.png Graphic file (type png)
+<use figures/nuclei6.png>
+Package luatex.def Info: figures/nuclei6.png  used on input line 67.
+(luatex.def)             Requested size: 161.82353pt x 161.81706pt.
+<figures/nuclei7.png, id=330, 752.8125pt x 752.8125pt>
+File: figures/nuclei7.png Graphic file (type png)
+<use figures/nuclei7.png>
+Package luatex.def Info: figures/nuclei7.png  used on input line 76.
+(luatex.def)             Requested size: 161.82353pt x 161.81706pt.
+<figures/nuclei8.png, id=331, 752.8125pt x 752.8125pt>
+File: figures/nuclei8.png Graphic file (type png)
+<use figures/nuclei8.png>
+Package luatex.def Info: figures/nuclei8.png  used on input line 77.
+(luatex.def)             Requested size: 161.82353pt x 161.81706pt.
+<figures/nuclei9.png, id=332, 752.8125pt x 752.8125pt>
+File: figures/nuclei9.png Graphic file (type png)
+<use figures/nuclei9.png>
+Package luatex.def Info: figures/nuclei9.png  used on input line 78.
+(luatex.def)             Requested size: 161.82353pt x 161.81706pt.
+ [26<./figures/nuclei1.png><./figures/nuclei2.png><./figures/nuclei3.png><./figures/nuclei4.png><./figures/nuclei5.png><./figures/nuclei6.png>]
+<figures/bulk10.png, id=346, 421.575pt x 316.18124pt>
+File: figures/bulk10.png Graphic file (type png)
+<use figures/bulk10.png>
+Package luatex.def Info: figures/bulk10.png  used on input line 89.
+(luatex.def)             Requested size: 243.98512pt x 182.98962pt.
+<figures/bulk11.png, id=347, 421.575pt x 316.18124pt>
+File: figures/bulk11.png Graphic file (type png)
+<use figures/bulk11.png>
+Package luatex.def Info: figures/bulk11.png  used on input line 90.
+(luatex.def)             Requested size: 243.98512pt x 182.98962pt.
+ [27<./figures/nuclei7.png><./figures/nuclei8.png><./figures/nuclei9.png><./figures/bulk10.png><./figures/bulk11.png>]
+<figures/bulk.png, id=362, 421.575pt x 316.18124pt>
+File: figures/bulk.png Graphic file (type png)
+<use figures/bulk.png>
+Package luatex.def Info: figures/bulk.png  used on input line 105.
+(luatex.def)             Requested size: 448.12788pt x 336.10095pt.
+ [28<./figures/bulk.png>]) [29]
 \tf@toc=\write5
 
 \openout5 = main.toc
@@ -1270,23 +1395,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 18349370BEFC41FB4D3D4F9944989A0A;6548.
+(rerunfilecheck)             Checksum: BA4ACB8F5446CECE0825D7C392101D21;6972.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28402 strings out of 481365
+ 28694 strings out of 481365
  100000,1144653 words of node,token memory allocated
  1599 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 15 sub_mlist, 1 glyph, 115 attribute, 194 glue_spec, 59 attribute_list, 2 write, 4 pdf_action nodes
-   avail lists: 2:719,3:107,4:39,5:505,6:39,7:3492,8:90,9:317,10:20,11:520
- 44238 multiletter control sequences out of 65536+600000
- 135 fonts using 61103283 bytes
- 50i,19n,109p,2153b,976s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 2:757,3:107,4:39,5:506,6:41,7:3492,8:90,9:317,10:24,11:520
+ 44369 multiletter control sequences out of 65536+600000
+ 135 fonts using 61103427 bytes
+ 50i,19n,109p,2302b,976s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/STIX2/STIXTwoText-BoldItalic.otf><./fonts/STIX2/STIXTwoText-Italic.otf><./fonts/STIX2/STIXTwoMath.otf><./fonts/STIX2/STIXTwoMath.otf><./fonts/STIX2/STIXTwoText-Regular.otf><./fonts/STIX2/STIXTwoText-Bold.otf>
-Output written on main.pdf (24 pages, 948864 bytes).
+Output written on main.pdf (29 pages, 18905020 bytes).
 
-PDF statistics: 327 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 131072)
- 145 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 418 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 131072)
+ 153 words of extra memory for PDF output out of 10000 (max. 100000000)
 

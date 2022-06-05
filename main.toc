@@ -17,3 +17,4 @@
 \contentsline {section}{\numberline {2.11}Идентификация структуры гидратов. Алгоритм CHILL+}{20}{section.2.11}%
 \contentsline {chapter}{\chapternumberline {3}Молекулярно-динамическое моделирование процессов роста и диссоциации гидрата метана}{23}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Затвердевание переохлажденной двухфазной системы метан-вода}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Диссоциация гидрата метана в рамках модели TIP4P}{29}{section.3.2}%
