@@ -25,7 +25,7 @@
 
 \usepackage{indentfirst}
 \usepackage{icomma}
-\usepackage{tocloft}
+\usepackage{calc}
 \usepackage{enumitem} 
 \usepackage{hyperref}
 \usepackage{relsize}
@@ -58,15 +58,22 @@
     \renewcommand{\subsecheadstyle}{\centering\bfseries\large}
     \renewcommand{\contentsname}{\bfseries Оглавление}
     }
-    
+
+\renewcommand{\cftappendixname}{\appendixname\space}    
+\renewcommand{\cftchaptername}{Глава \chapternamenum}
+\renewcommand{\cftchapteraftersnum}{.}
+
+
 \pagestyle{plain}
 \OnehalfSpacing
 
 \begin{document}
-    \tableofcontents*
-
-    %\input{chapters/introduction.tex}
+    %\tableofcontents*
+    \input{chapters/introduction.tex}
     \input{chapters/chapter-1.tex}
     \input{chapters/chapter-2.tex}
     \input{chapters/chapter-3.tex}
+    %\input{chapters/conclusion.tex}
+    %\appendix
+    %\input{chapters/appendix.tex}
 \end{document}
