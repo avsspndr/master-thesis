@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.5.7)  6 JUN 2022 03:53
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.5.7)  8 JUN 2022 14:59
  system commands enabled.
  file:line:error style messages enabled.
 **/home/pander/luatex_projects/master-thesis/main
@@ -825,6 +825,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count336
+Package hyperref Info: Option `breaklinks' set `true' on input line 4421.
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -1038,34 +1039,34 @@ Package babel Info: Default for \cyrdash is provided on input line 157.
  (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-ru.tex UTF-8 Russian hyphenation patterns (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-ru.tex)))) (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Info: Redefining \microtypecontext on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Info: Redefining \microtypecontext on input line 71.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 70.
+LaTeX Info: Redefining \showhyphens on input line 71.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1109,17 +1110,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/STIXTwoMath.otf(1)/m/n --> TU/STIXTwoText(0)/m/n on input line 70.
+(Font)                  TU/STIXTwoMath.otf(1)/m/n --> TU/STIXTwoText(0)/m/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/STIXTwoText(0)/m/it on input line 70.
+(Font)                  OT1/cmr/m/it --> TU/STIXTwoText(0)/m/it on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/STIXTwoText(0)/b/n on input line 70.
+(Font)                  OT1/cmr/bx/n --> TU/STIXTwoText(0)/b/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 70.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 70.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 71.
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 70.
+Package hyperref Info: Link coloring OFF on input line 71.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1131,16 +1132,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 70.
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \nameref on input line 71.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 
 \openout4 = main.out
 
-Package chemgreek Info: Activating mapping `fontspec' on line 70.
+Package chemgreek Info: Activating mapping `fontspec' on line 71.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1178,44 +1179,45 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraCode' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./chapters/introduction.tex [1
+ (./main.toc) (./chapters/introduction.tex [1
 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./chapters/chapter-1.tex [2] [3
+]) (./chapters/chapter-1.tex [4] [5
 
-] [4]
-<figures/hydrstruct.png, id=112, 541.64464pt x 305.81621pt>
+] [6]
+<figures/hydrstruct.png, id=152, 541.64464pt x 305.81621pt>
 File: figures/hydrstruct.png Graphic file (type png)
 <use figures/hydrstruct.png>
 Package luatex.def Info: figures/hydrstruct.png  used on input line 27.
 (luatex.def)             Requested size: 448.12788pt x 253.0201pt.
- [5] [6<./figures/hydrstruct.png>] [7]
-<figures/hydrnucl.png, id=135, 634.62094pt x 398.99063pt>
+ [7] [8<./figures/hydrstruct.png>] [9]
+<figures/hydrnucl.png, id=176, 634.62094pt x 398.99063pt>
 File: figures/hydrnucl.png Graphic file (type png)
 <use figures/hydrnucl.png>
 Package luatex.def Info: figures/hydrnucl.png  used on input line 63.
 (luatex.def)             Requested size: 448.12788pt x 281.75113pt.
-) (./chapters/chapter-2.tex [8<./figures/hydrnucl.png>] [9] [10
+) (./chapters/chapter-2.tex [10<./figures/hydrnucl.png>] [11] [12
 
-] [11] [12] [13] [14]
-<figures/watermodels.png, id=182, 1927.2pt x 372.39125pt>
+] [13] [14] [15] [16]
+<figures/watermodels.png, id=222, 1927.2pt x 372.39125pt>
 File: figures/watermodels.png Graphic file (type png)
 <use figures/watermodels.png>
 Package luatex.def Info: figures/watermodels.png  used on input line 109.
 (luatex.def)             Requested size: 448.12788pt x 86.59143pt.
- [15]
-<figures/tip4pdiag.png, id=188, 296.68736pt x 216.81pt>
+ [17]
+<figures/tip4pdiag.png, id=228, 296.68736pt x 216.81pt>
 File: figures/tip4pdiag.png Graphic file (type png)
 <use figures/tip4pdiag.png>
 Package luatex.def Info: figures/tip4pdiag.png  used on input line 119.
 (luatex.def)             Requested size: 323.64706pt x 236.53325pt.
- [16<./figures/watermodels.png>]
-<figures/water_mol.png, id=198, 304.13625pt x 231.11343pt>
+ [18<./figures/watermodels.png>]
+<figures/water_mol.png, id=238, 304.13625pt x 231.11343pt>
 File: figures/water_mol.png Graphic file (type png)
 <use figures/water_mol.png>
 Package luatex.def Info: figures/water_mol.png  used on input line 128.
 (luatex.def)             Requested size: 298.75697pt x 227.0327pt.
- [17<./figures/tip4pdiag.png><./figures/water_mol.png>]
+ [19<./figures/tip4pdiag.png><./figures/water_mol.png>]
 LaTeX Font Info:    Font shape `TU/STIXTwoMath.otf(2)/m/n' will be
 (Font)              scaled to size 17.28183pt on input line 137.
 LaTeX Font Info:    Font shape `TU/STIXTwoMath.otf(2)/m/n' will be
@@ -1232,285 +1234,278 @@ LaTeX Font Info:    Font shape `TU/STIXTwoMath.otf(2)/m/n' will be
 (Font)              scaled to size 20.74222pt on input line 137.
 LaTeX Font Info:    Font shape `TU/STIXTwoMath.otf(3)/m/n' will be
 (Font)              scaled to size 20.73778pt on input line 137.
- [18]
-<figures/hydrmodel.png, id=218, 365.15369pt x 264.73642pt>
+ [20]
+<figures/hydrmodel.png, id=258, 365.15369pt x 264.73642pt>
 File: figures/hydrmodel.png Graphic file (type png)
 <use figures/hydrmodel.png>
 Package luatex.def Info: figures/hydrmodel.png  used on input line 177.
 (luatex.def)             Requested size: 398.3401pt x 288.81549pt.
- [19<./figures/hydrmodel.png>] [20] [21]
-<figures/bonds.png, id=248, 255.20343pt x 139.27031pt>
+ [21<./figures/hydrmodel.png>] [22] [23]
+<figures/bonds.png, id=289, 255.20343pt x 139.27031pt>
 File: figures/bonds.png Graphic file (type png)
 <use figures/bonds.png>
 Package luatex.def Info: figures/bonds.png  used on input line 241.
 (luatex.def)             Requested size: 255.2028pt x 139.26996pt.
-<figures/chillplus.png, id=249, 432.86719pt x 160.34906pt>
+<figures/chillplus.png, id=290, 432.86719pt x 160.34906pt>
 File: figures/chillplus.png Graphic file (type png)
 <use figures/chillplus.png>
 Package luatex.def Info: figures/chillplus.png  used on input line 247.
 (luatex.def)             Requested size: 432.86612pt x 160.34866pt.
- [22<./figures/bonds.png>]) (./chapters/chapter-3.tex [23<./figures/chillplus.png>] [24
+ [24<./figures/bonds.png>]) (./chapters/chapter-3.tex [25<./figures/chillplus.png>] [26
 
 ]
-<figures/unit1.png, id=275, 770.88pt x 770.88pt>
+<figures/unit1.png, id=316, 770.88pt x 770.88pt>
 File: figures/unit1.png Graphic file (type png)
 <use figures/unit1.png>
 Package luatex.def Info: figures/unit1.png  used on input line 10.
 (luatex.def)             Requested size: 243.98512pt x 243.98123pt.
-<figures/unit2.png, id=276, 770.88pt x 770.88pt>
+<figures/unit2.png, id=317, 770.88pt x 770.88pt>
 File: figures/unit2.png Graphic file (type png)
 <use figures/unit2.png>
 Package luatex.def Info: figures/unit2.png  used on input line 11.
 (luatex.def)             Requested size: 243.98512pt x 243.98123pt.
-<figures/unit3.png, id=277, 770.88pt x 770.88pt>
+<figures/unit3.png, id=318, 770.88pt x 770.88pt>
 File: figures/unit3.png Graphic file (type png)
 <use figures/unit3.png>
 Package luatex.def Info: figures/unit3.png  used on input line 15.
 (luatex.def)             Requested size: 248.96162pt x 248.95683pt.
-<figures/unit1a.png, id=278, 770.88pt x 770.88pt>
+<figures/unit1a.png, id=319, 770.88pt x 770.88pt>
 File: figures/unit1a.png Graphic file (type png)
 <use figures/unit1a.png>
 Package luatex.def Info: figures/unit1a.png  used on input line 27.
 (luatex.def)             Requested size: 243.98512pt x 243.98123pt.
-<figures/unit2a.png, id=279, 770.88pt x 770.88pt>
+<figures/unit2a.png, id=320, 770.88pt x 770.88pt>
 File: figures/unit2a.png Graphic file (type png)
 <use figures/unit2a.png>
 Package luatex.def Info: figures/unit2a.png  used on input line 28.
 (luatex.def)             Requested size: 243.98512pt x 243.98123pt.
-<figures/unit3a.png, id=280, 770.88pt x 770.88pt>
+<figures/unit3a.png, id=321, 770.88pt x 770.88pt>
 File: figures/unit3a.png Graphic file (type png)
 <use figures/unit3a.png>
 Package luatex.def Info: figures/unit3a.png  used on input line 32.
 (luatex.def)             Requested size: 248.96162pt x 248.95683pt.
- [25<./figures/unit1.png><./figures/unit2.png><./figures/unit3.png>]
-<figures/press1.png, id=289, 770.88pt x 770.88pt>
+ [27<./figures/unit1.png><./figures/unit2.png><./figures/unit3.png>]
+<figures/press1.png, id=329, 770.88pt x 770.88pt>
 File: figures/press1.png Graphic file (type png)
 <use figures/press1.png>
 Package luatex.def Info: figures/press1.png  used on input line 43.
 (luatex.def)             Requested size: 243.98512pt x 243.98123pt.
-<figures/press2.png, id=290, 770.88pt x 770.88pt>
+<figures/press2.png, id=330, 770.88pt x 770.88pt>
 File: figures/press2.png Graphic file (type png)
 <use figures/press2.png>
 Package luatex.def Info: figures/press2.png  used on input line 44.
 (luatex.def)             Requested size: 243.98512pt x 243.98123pt.
-<figures/press3.png, id=291, 770.88pt x 770.88pt>
+<figures/press3.png, id=331, 770.88pt x 770.88pt>
 File: figures/press3.png Graphic file (type png)
 <use figures/press3.png>
 Package luatex.def Info: figures/press3.png  used on input line 48.
 (luatex.def)             Requested size: 248.96162pt x 248.95683pt.
- [26<./figures/unit1a.png><./figures/unit2a.png><./figures/unit3a.png>]
-<figures/cool1.png, id=299, 770.88pt x 770.88pt>
+ [28<./figures/unit1a.png><./figures/unit2a.png><./figures/unit3a.png>]
+<figures/cool1.png, id=339, 770.88pt x 770.88pt>
 File: figures/cool1.png Graphic file (type png)
 <use figures/cool1.png>
 Package luatex.def Info: figures/cool1.png  used on input line 57.
 (luatex.def)             Requested size: 243.98512pt x 243.98123pt.
-<figures/cool2.png, id=300, 770.88pt x 770.88pt>
+<figures/cool2.png, id=340, 770.88pt x 770.88pt>
 File: figures/cool2.png Graphic file (type png)
 <use figures/cool2.png>
 Package luatex.def Info: figures/cool2.png  used on input line 58.
 (luatex.def)             Requested size: 243.98512pt x 243.98123pt.
-<figures/cool3.png, id=301, 770.88pt x 770.88pt>
+<figures/cool3.png, id=341, 770.88pt x 770.88pt>
 File: figures/cool3.png Graphic file (type png)
 <use figures/cool3.png>
 Package luatex.def Info: figures/cool3.png  used on input line 62.
 (luatex.def)             Requested size: 248.96162pt x 248.95683pt.
- [27<./figures/press1.png><./figures/press2.png><./figures/press3.png>] [28<./figures/cool1.png><./figures/cool2.png><./figures/cool3.png>]
-<figures/nuclei1.png, id=320, 752.8125pt x 752.8125pt>
+ [29<./figures/press1.png><./figures/press2.png><./figures/press3.png>] [30<./figures/cool1.png><./figures/cool2.png><./figures/cool3.png>]
+<figures/nuclei1.png, id=360, 752.8125pt x 752.8125pt>
 File: figures/nuclei1.png Graphic file (type png)
 <use figures/nuclei1.png>
 Package luatex.def Info: figures/nuclei1.png  used on input line 76.
 (luatex.def)             Requested size: 199.16626pt x 199.16124pt.
-<figures/nuclei2.png, id=321, 752.8125pt x 752.8125pt>
+<figures/nuclei2.png, id=361, 752.8125pt x 752.8125pt>
 File: figures/nuclei2.png Graphic file (type png)
 <use figures/nuclei2.png>
 Package luatex.def Info: figures/nuclei2.png  used on input line 77.
 (luatex.def)             Requested size: 199.16626pt x 199.16124pt.
-<figures/nuclei3.png, id=322, 752.8125pt x 752.8125pt>
+<figures/nuclei3.png, id=362, 752.8125pt x 752.8125pt>
 File: figures/nuclei3.png Graphic file (type png)
 <use figures/nuclei3.png>
 Package luatex.def Info: figures/nuclei3.png  used on input line 81.
 (luatex.def)             Requested size: 199.16626pt x 199.16124pt.
-<figures/nuclei4.png, id=323, 752.8125pt x 752.8125pt>
+<figures/nuclei4.png, id=363, 752.8125pt x 752.8125pt>
 File: figures/nuclei4.png Graphic file (type png)
 <use figures/nuclei4.png>
 Package luatex.def Info: figures/nuclei4.png  used on input line 82.
 (luatex.def)             Requested size: 199.16626pt x 199.16124pt.
-<figures/nuclei5.png, id=324, 752.8125pt x 752.8125pt>
+<figures/nuclei5.png, id=364, 752.8125pt x 752.8125pt>
 File: figures/nuclei5.png Graphic file (type png)
 <use figures/nuclei5.png>
 Package luatex.def Info: figures/nuclei5.png  used on input line 86.
 (luatex.def)             Requested size: 199.16626pt x 199.16124pt.
-<figures/nuclei6.png, id=325, 752.8125pt x 752.8125pt>
+<figures/nuclei6.png, id=365, 752.8125pt x 752.8125pt>
 File: figures/nuclei6.png Graphic file (type png)
 <use figures/nuclei6.png>
 Package luatex.def Info: figures/nuclei6.png  used on input line 87.
 (luatex.def)             Requested size: 199.16626pt x 199.16124pt.
- [29]
-<figures/nuclei7.png, id=333, 752.8125pt x 752.8125pt>
+ [31]
+<figures/nuclei7.png, id=374, 752.8125pt x 752.8125pt>
 File: figures/nuclei7.png Graphic file (type png)
 <use figures/nuclei7.png>
 Package luatex.def Info: figures/nuclei7.png  used on input line 96.
 (luatex.def)             Requested size: 243.98512pt x 243.98343pt.
-<figures/nuclei8.png, id=334, 752.8125pt x 752.8125pt>
+<figures/nuclei8.png, id=375, 752.8125pt x 752.8125pt>
 File: figures/nuclei8.png Graphic file (type png)
 <use figures/nuclei8.png>
 Package luatex.def Info: figures/nuclei8.png  used on input line 97.
 (luatex.def)             Requested size: 243.98512pt x 243.98343pt.
-<figures/nuclei9.png, id=335, 752.8125pt x 752.8125pt>
+<figures/nuclei9.png, id=376, 752.8125pt x 752.8125pt>
 File: figures/nuclei9.png Graphic file (type png)
 <use figures/nuclei9.png>
 Package luatex.def Info: figures/nuclei9.png  used on input line 101.
 (luatex.def)             Requested size: 248.96162pt x 248.95729pt.
- [30<./figures/nuclei1.png><./figures/nuclei2.png><./figures/nuclei3.png><./figures/nuclei4.png><./figures/nuclei5.png><./figures/nuclei6.png>]
-<figures/bulk10.png, id=346, 421.575pt x 316.18124pt>
+ [32<./figures/nuclei1.png><./figures/nuclei2.png><./figures/nuclei3.png><./figures/nuclei4.png><./figures/nuclei5.png><./figures/nuclei6.png>]
+<figures/bulk10.png, id=387, 421.575pt x 316.18124pt>
 File: figures/bulk10.png Graphic file (type png)
 <use figures/bulk10.png>
 Package luatex.def Info: figures/bulk10.png  used on input line 112.
 (luatex.def)             Requested size: 243.98512pt x 182.98962pt.
-<figures/bulk11.png, id=347, 421.575pt x 316.18124pt>
+<figures/bulk11.png, id=388, 421.575pt x 316.18124pt>
 File: figures/bulk11.png Graphic file (type png)
 <use figures/bulk11.png>
 Package luatex.def Info: figures/bulk11.png  used on input line 113.
 (luatex.def)             Requested size: 243.98512pt x 182.98962pt.
- [31<./figures/nuclei7.png><./figures/nuclei8.png><./figures/nuclei9.png>]
-<figures/bulk.png, id=358, 421.575pt x 316.18124pt>
+ [33<./figures/nuclei7.png><./figures/nuclei8.png><./figures/nuclei9.png>]
+<figures/bulk.png, id=398, 421.575pt x 316.18124pt>
 File: figures/bulk.png Graphic file (type png)
 <use figures/bulk.png>
 Package luatex.def Info: figures/bulk.png  used on input line 128.
 (luatex.def)             Requested size: 448.12788pt x 336.10095pt.
- [32<./figures/bulk10.png><./figures/bulk11.png>] [33<./figures/bulk.png>]
-<figures/tip4p_unit2.png, id=373, 752.8125pt x 752.8125pt>
+ [34<./figures/bulk10.png><./figures/bulk11.png>] [35<./figures/bulk.png>]
+<figures/tip4p_unit2.png, id=413, 752.8125pt x 752.8125pt>
 File: figures/tip4p_unit2.png Graphic file (type png)
 <use figures/tip4p_unit2.png>
 Package luatex.def Info: figures/tip4p_unit2.png  used on input line 138.
 (luatex.def)             Requested size: 243.98512pt x 243.98343pt.
-<figures/tip4p_unit3.png, id=374, 752.8125pt x 752.8125pt>
+<figures/tip4p_unit3.png, id=414, 752.8125pt x 752.8125pt>
 File: figures/tip4p_unit3.png Graphic file (type png)
 <use figures/tip4p_unit3.png>
 Package luatex.def Info: figures/tip4p_unit3.png  used on input line 139.
 (luatex.def)             Requested size: 243.98512pt x 243.98343pt.
-<figures/tip4p_unit4.png, id=375, 752.8125pt x 752.8125pt>
+<figures/tip4p_unit4.png, id=415, 752.8125pt x 752.8125pt>
 File: figures/tip4p_unit4.png Graphic file (type png)
 <use figures/tip4p_unit4.png>
 Package luatex.def Info: figures/tip4p_unit4.png  used on input line 143.
 (luatex.def)             Requested size: 243.98512pt x 243.98343pt.
- [34<./figures/tip4p_unit2.png><./figures/tip4p_unit3.png><./figures/tip4p_unit4.png>]
-<figures/tip4p_melt1.png, id=384, 752.8125pt x 752.8125pt>
+ [36<./figures/tip4p_unit2.png><./figures/tip4p_unit3.png><./figures/tip4p_unit4.png>]
+<figures/tip4p_melt1.png, id=424, 752.8125pt x 752.8125pt>
 File: figures/tip4p_melt1.png Graphic file (type png)
 <use figures/tip4p_melt1.png>
 Package luatex.def Info: figures/tip4p_melt1.png  used on input line 154.
 (luatex.def)             Requested size: 224.06393pt x 224.065pt.
-<figures/tip4p_melt2.png, id=385, 752.8125pt x 752.8125pt>
+<figures/tip4p_melt2.png, id=425, 752.8125pt x 752.8125pt>
 File: figures/tip4p_melt2.png Graphic file (type png)
 <use figures/tip4p_melt2.png>
 Package luatex.def Info: figures/tip4p_melt2.png  used on input line 155.
 (luatex.def)             Requested size: 224.06393pt x 224.065pt.
-<figures/tip4p_melt3.png, id=386, 752.8125pt x 752.8125pt>
+<figures/tip4p_melt3.png, id=426, 752.8125pt x 752.8125pt>
 File: figures/tip4p_melt3.png Graphic file (type png)
 <use figures/tip4p_melt3.png>
 Package luatex.def Info: figures/tip4p_melt3.png  used on input line 159.
 (luatex.def)             Requested size: 224.06393pt x 224.065pt.
-<figures/tip4p_melt4.png, id=387, 752.8125pt x 752.8125pt>
+<figures/tip4p_melt4.png, id=427, 752.8125pt x 752.8125pt>
 File: figures/tip4p_melt4.png Graphic file (type png)
 <use figures/tip4p_melt4.png>
 Package luatex.def Info: figures/tip4p_melt4.png  used on input line 168.
 (luatex.def)             Requested size: 243.98512pt x 243.98343pt.
-<figures/tip4p_melt5.png, id=388, 752.8125pt x 752.8125pt>
+<figures/tip4p_melt5.png, id=428, 752.8125pt x 752.8125pt>
 File: figures/tip4p_melt5.png Graphic file (type png)
 <use figures/tip4p_melt5.png>
 Package luatex.def Info: figures/tip4p_melt5.png  used on input line 169.
 (luatex.def)             Requested size: 243.98512pt x 243.98343pt.
-<figures/tip4p_melt6.png, id=389, 752.8125pt x 752.8125pt>
+<figures/tip4p_melt6.png, id=429, 752.8125pt x 752.8125pt>
 File: figures/tip4p_melt6.png Graphic file (type png)
 <use figures/tip4p_melt6.png>
 Package luatex.def Info: figures/tip4p_melt6.png  used on input line 173.
 (luatex.def)             Requested size: 248.96162pt x 248.95729pt.
- [35<./figures/tip4p_melt1.png><./figures/tip4p_melt2.png><./figures/tip4p_melt3.png>]
-<figures/tip4p_melt7.png, id=398, 752.8125pt x 752.8125pt>
+ [37<./figures/tip4p_melt1.png><./figures/tip4p_melt2.png><./figures/tip4p_melt3.png>]
+<figures/tip4p_melt7.png, id=438, 752.8125pt x 752.8125pt>
 File: figures/tip4p_melt7.png Graphic file (type png)
 <use figures/tip4p_melt7.png>
 Package luatex.def Info: figures/tip4p_melt7.png  used on input line 182.
 (luatex.def)             Requested size: 248.96162pt x 248.95729pt.
-<figures/tip4p_melt8.png, id=399, 752.8125pt x 752.8125pt>
+<figures/tip4p_melt8.png, id=439, 752.8125pt x 752.8125pt>
 File: figures/tip4p_melt8.png Graphic file (type png)
 <use figures/tip4p_melt8.png>
 Package luatex.def Info: figures/tip4p_melt8.png  used on input line 183.
 (luatex.def)             Requested size: 248.96162pt x 248.95729pt.
- [36<./figures/tip4p_melt4.png><./figures/tip4p_melt5.png><./figures/tip4p_melt6.png>]
-<figures/temp.png, id=409, 421.575pt x 316.18124pt>
+ [38<./figures/tip4p_melt4.png><./figures/tip4p_melt5.png><./figures/tip4p_melt6.png>]
+<figures/temp.png, id=449, 421.575pt x 316.18124pt>
 File: figures/temp.png Graphic file (type png)
 <use figures/temp.png>
 Package luatex.def Info: figures/temp.png  used on input line 194.
 (luatex.def)             Requested size: 248.96162pt x 186.72382pt.
-<figures/press.png, id=410, 421.575pt x 316.18124pt>
+<figures/press.png, id=450, 421.575pt x 316.18124pt>
 File: figures/press.png Graphic file (type png)
 <use figures/press.png>
 Package luatex.def Info: figures/press.png  used on input line 195.
 (luatex.def)             Requested size: 248.96162pt x 186.72382pt.
-<figures/density.png, id=411, 421.575pt x 316.18124pt>
+<figures/density.png, id=451, 421.575pt x 316.18124pt>
 File: figures/density.png Graphic file (type png)
 <use figures/density.png>
 Package luatex.def Info: figures/density.png  used on input line 198.
 (luatex.def)             Requested size: 248.96162pt x 186.72382pt.
-<figures/pe.png, id=412, 421.575pt x 316.18124pt>
+<figures/pe.png, id=452, 421.575pt x 316.18124pt>
 File: figures/pe.png Graphic file (type png)
 <use figures/pe.png>
 Package luatex.def Info: figures/pe.png  used on input line 199.
 (luatex.def)             Requested size: 248.96162pt x 186.72382pt.
-<figures/density_temp.png, id=413, 421.575pt x 316.18124pt>
+<figures/density_temp.png, id=453, 421.575pt x 316.18124pt>
 File: figures/density_temp.png Graphic file (type png)
 <use figures/density_temp.png>
 Package luatex.def Info: figures/density_temp.png  used on input line 202.
 (luatex.def)             Requested size: 248.96162pt x 186.72382pt.
-<figures/pe_temp.png, id=414, 421.575pt x 316.18124pt>
+<figures/pe_temp.png, id=454, 421.575pt x 316.18124pt>
 File: figures/pe_temp.png Graphic file (type png)
 <use figures/pe_temp.png>
 Package luatex.def Info: figures/pe_temp.png  used on input line 203.
 (luatex.def)             Requested size: 248.96162pt x 186.72382pt.
- [37<./figures/tip4p_melt7.png><./figures/tip4p_melt8.png>]
-<figures/hydr.png, id=424, 421.575pt x 316.18124pt>
+ [39<./figures/tip4p_melt7.png><./figures/tip4p_melt8.png>]
+<figures/hydr.png, id=464, 421.575pt x 316.18124pt>
 File: figures/hydr.png Graphic file (type png)
 <use figures/hydr.png>
 Package luatex.def Info: figures/hydr.png  used on input line 211.
 (luatex.def)             Requested size: 421.57396pt x 316.18047pt.
-) [38<./figures/temp.png><./figures/press.png><./figures/density.png><./figures/pe.png><./figures/density_temp.png><./figures/pe_temp.png>] [39<./figures/hydr.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+) (./chapters/conclusion.tex [40<./figures/temp.png><./figures/press.png><./figures/density.png><./figures/pe.png><./figures/density_temp.png><./figures/pe_temp.png>] [41<./figures/hydr.png>]) (./chapters/bibliography.tex [42
+
+] [43
+
+] [44] [45] [46]) [47]
+\tf@toc=\write5
+
+\openout5 = main.toc
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 7EBA77E51D860F60D92AFB40C92F1DB9;7174
-(rerunfilecheck)             After:  D2A4BE64713177E955A1B0A494255E12;7049.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 630DBEB7C153976EBE25791A8DC5B5BB;7355.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28919 strings out of 481365
+ 29015 strings out of 481365
  100000,1144653 words of node,token memory allocated
- 1551 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 15 sub_mlist, 1 glyph, 107 attribute, 194 glue_spec, 55 attribute_list, 2 write nodes
-   avail lists: 2:719,3:107,4:39,5:506,6:18,7:3492,8:90,9:317,10:24,11:520
- 44468 multiletter control sequences out of 65536+600000
- 135 fonts using 61103283 bytes
- 50i,19n,109p,2302b,976s stack positions out of 5000i,500n,10000p,200000b,100000s
-
-warning  (pdf backend): unreferenced destination with name 'chapter*.3'
-
-warning  (pdf backend): unreferenced destination with name 'chapter*.2'
+ 1611 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 15 sub_mlist, 1 glyph, 117 attribute, 194 glue_spec, 60 attribute_list, 2 write, 5 pdf_action nodes
+   avail lists: 2:862,3:120,4:39,5:503,6:46,7:3416,8:90,9:317,10:26,11:520
+ 44485 multiletter control sequences out of 65536+600000
+ 135 fonts using 61103571 bytes
+ 50i,19n,109p,2592b,976s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/STIX2/STIXTwoText-BoldItalic.otf><./fonts/STIX2/STIXTwoText-Italic.otf><./fonts/STIX2/STIXTwoMath.otf><./fonts/STIX2/STIXTwoMath.otf><./fonts/STIX2/STIXTwoText-Regular.otf><./fonts/STIX2/STIXTwoText-Bold.otf>
-Output written on main.pdf (39 pages, 26673926 bytes).
+Output written on main.pdf (47 pages, 26692652 bytes).
 
-PDF statistics: 481 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
- 111 named destinations out of 1000 (max. 131072)
- 169 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 598 PDF objects out of 1000 (max. 8388607)
+ 436 compressed objects within 5 object streams
+ 163 named destinations out of 1000 (max. 131072)
+ 177 words of extra memory for PDF output out of 10000 (max. 100000000)
 
