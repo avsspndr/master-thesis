@@ -1,1 +1,186 @@
 \chapter{}
+\section*{Скрипт LAMMPS для плавления гидрата метана с использованием крупнозернистой модели}
+\begin{lstlisting}[basicstyle=\ttfamily]
+units real
+boundary p p p
+atom_style atomic
+
+read_data "si_cell_mw.data"
+
+replicate 4 4 4
+
+mass 1 18.0154
+mass 2 16.043
+
+group mW  type 1
+group Msw type 2
+
+pair_style sw
+pair_coeff * * mhmw.sw mW Msw
+
+neigh_modify delay 0 every 1 check yes
+timestep 10
+
+variable T_init equal 425.0
+variable T_fin  equal 425.0
+
+velocity all create ${T_init} 128412
+
+fix NPT all npt temp ${T_init} ${T_fin} $(100*dt) &
+    iso 100.0 100.0 $(1000*dt)
+
+thermo_style custom step cpuremain temp press density pe
+thermo 1000
+dump trj all custom 500 trj/lmptrj.melt id type x y z
+
+run 2000000
+write_restart restarts/melt.restart
+
+\end{lstlisting}
+
+\section*{Скрипт LAMMPS для охлаждения жидкой системы метан-вода с использованием крупнозернистой модели}
+\begin{lstlisting}[basicstyle=\ttfamily]
+read_restart restarts/melt.restart
+reset_timestep 0
+
+neigh_modify delay 0 every 1 check yes
+
+pair_style sw
+pair_coeff * * mhmw.sw mW Msw
+
+timestep 10
+
+variable P_in equal 100.0
+variable P_fin equal 500.0
+variable T_in equal 425.0
+variable T_fin equal 210.0
+
+thermo_style custom step cpuremain temp press density pe
+thermo 1000
+
+fix NPT all npt temp ${T_in} ${T_in} $(100*dt) &
+    iso ${P_in} ${P_fin} $(1000*dt)
+dump trj all custom 100 trj/lmptrj.press id type x y z
+run 100000
+
+unfix NPT
+undump trj
+reset_timestep 0
+
+fix NPT all npt temp ${T_in} ${T_fin} $(100*dt) &
+    iso ${P_fin} ${P_fin} $(1000*dt)
+dump trj all custom 500 trj/lmptrj.cool id type x y z
+run 2150000
+
+\end{lstlisting}
+
+\section*{Скрипт LAMMPS для моделирования процесса роста гидрата метана из жидкой переохлажденной системы}
+\begin{lstlisting}[basicstyle=\ttfamily]
+read_restart restarts/nuclei_init.restart
+reset_timestep 0
+
+neigh_modify delay 0 every 1 check yes
+
+pair_style sw
+pair_coeff * * mhmw.sw mW Msw
+
+timestep 10
+
+variable P equal 500.0
+variable T equal 210.0
+
+fix NPT all npt temp $T $T $(100*dt) iso $P $P $(1000*dt)
+
+thermo_style custom step elapsed cpuremain pe density
+thermo 5000
+
+variable rho equal density
+
+fix 11 all ave/time 10000 9 100000 v_rho &
+    file thermo/out.density
+fix 12 all ave/time 10000 9 100000 c_thermo_pe &
+    file thermo/out.p_energy
+fix 13 all ave/time 10000 9 100000 c_thermo_temp &
+    file thermo/out.temp
+fix 14 all ave/time 10000 9 100000 c_thermo_press &
+    file thermo/out.press
+
+dump trj all custom 10000 trj/lmptrj.nuclei id type x y z
+
+run 5000000
+
+write_restart restarts/nuclei_50ns.restart
+
+\end{lstlisting}
+
+\section*{Скрипт LAMMPS для плавления гидрата метана с использованием моделей TIP4P/Ice и OPLS-UA}
+\begin{lstlisting}[basicstyle=\ttfamily]
+units real
+dimension 3
+boundary p p p
+
+atom_style full
+pair_style lj/cut/tip4p/long 1 2 1 1 0.1577 10
+kspace_style pppm/tip4p 1.0e-4
+bond_style harmonic
+angle_style harmonic
+pair_modify mix arithmetic
+
+read_data "si_cell.data"
+
+replicate 3 3 3
+
+pair_coeff 1 1 0.21084 3.1668
+pair_coeff 1 2 0 0
+pair_coeff 2 2 0 0
+pair_coeff 3 3 0.294 3.73
+
+bond_coeff 1 0.0 0.9572
+angle_coeff 1 0.0 104.52
+
+mass 1 15.9994
+mass 2 1.008
+mass 3 16.043
+
+group water type 1 2
+group methane type 3
+group oxygen type 1
+
+fix H2O water shake 1e-4 100 0 a 1 b 1
+
+variable T_in  equal 250.0
+variable T_fin equal 450.0
+
+timestep 2
+
+velocity all create ${T_in} 241273
+run 0
+velocity all scale ${T_in}
+
+fix NPT all npt temp ${T_in} ${T_fin} $(100*dt) &
+    iso 100.0 100.0 $(1000*dt)
+
+neigh_modify delay 0 every 1 check yes
+
+thermo_style custom step cpuremain temp press density pe
+thermo 1000
+
+dump trj all atom 1000 trj/lmptrj.melt
+
+variable rho equal density
+
+fix 1 all ave/time 1000 9 10000 v_rho &
+    file thermo/out.density
+fix 2 all ave/time 1000 9 10000 c_thermo_pe &
+    file thermo/out.p_energy
+fix 3 all ave/time 1000 9 10000 c_thermo_temp &
+    file thermo/out.temp
+fix 4 all ave/time 1000 9 10000 c_thermo_press &
+    file thermo/out.press
+
+restart 1000000 restart/melt.*.restart
+
+run 5000000
+
+write_restart restart/melt_10ns.restart
+\end{lstlisting}

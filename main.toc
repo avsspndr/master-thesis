@@ -1,23 +1,24 @@
 \babel@toc {russian}{}
 \contentsline {chapter}{Введение}{3}{chapter*.2}%
-\contentsline {chapter}{\chapternumberline {1}Гидрат метана}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Историческая справка}{5}{section.1.1}%
+\contentsline {chapter}{\chapternumberline {1}Гидрат метана}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Историческая справка}{6}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Кристаллическая структура}{7}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Образование гидратов}{9}{section.1.3}%
-\contentsline {chapter}{\chapternumberline {2}Молекулярно-динамический подход к изучению гидрата метана}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Метод классической молекулярной динамики}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Скоростной алгоритм Верле интегрирования уравнений движения}{14}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Ячейка моделирования. Периодические граничные условия}{15}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Статистические ансамбли. Термостаты и баростаты}{16}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Радиус обрезания. Список Верле}{17}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Модельные потенциалы взаимодействия для описания гидрата метана}{17}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Модель TIP4P/Ice}{18}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Модель OPLS-UA}{20}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Правила Лоренца-Бертло}{21}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Крупнозернистая модель гидрата метана}{22}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Идентификация структуры гидратов. Алгоритм CHILL+}{23}{section.2.11}%
-\contentsline {chapter}{\chapternumberline {3}Молекулярно-динамическое моделирование процессов роста и диссоциации гидрата метана}{26}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Затвердевание переохлажденной двухфазной системы метан-вода}{26}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Диссоциация гидрата метана в рамках модели TIP4P}{36}{section.3.2}%
-\contentsline {chapter}{Заключение}{42}{chapter*.3}%
-\contentsline {chapter}{Список Литературы}{43}{chapter*.4}%
+\contentsline {section}{\numberline {1.3}Образование гидратов}{10}{section.1.3}%
+\contentsline {chapter}{\chapternumberline {2}Молекулярно-динамический подход к изучению гидрата метана}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Метод классической молекулярной динамики}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Скоростной алгоритм Верле интегрирования уравнений движения}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Ячейка моделирования. Периодические граничные условия}{16}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Статистические ансамбли. Термостаты и баростаты}{17}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Радиус обрезания. Список Верле}{18}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Модельные потенциалы взаимодействия для описания гидрата метана}{19}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Модель TIP4P/Ice}{19}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Модель OPLS-UA}{21}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Правила Лоренца-Бертло}{22}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Крупнозернистая модель гидрата метана}{23}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Идентификация структуры гидратов. Алгоритм CHILL+}{24}{section.2.11}%
+\contentsline {chapter}{\chapternumberline {3}Молекулярно-динамическое моделирование процессов роста и диссоциации гидрата метана}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Затвердевание переохлажденной двухфазной системы метан-вода}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Диссоциация гидрата метана в рамках модели TIP4P}{37}{section.3.2}%
+\contentsline {chapter}{Заключение}{43}{chapter*.3}%
+\contentsline {chapter}{Список Литературы}{44}{chapter*.4}%
+\contentsline {appendix}{\chapternumberline {A}}{49}{appendix.A}%
